@@ -17,7 +17,7 @@ import Greeting from './Greeting';
         // ... nothing
         
         // Assert
-        const helloWorldElement = screen.getByText('Hello Wolrd!');
+        const helloWorldElement = screen.getByText('Hello World!');
         expect(helloWorldElement).toBeInTheDocument();
     });
 
